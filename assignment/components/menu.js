@@ -12,7 +12,6 @@ const menu = {
             <input class="bg-blue-900 border-2 border-white " type="submit" value="TÌM KIẾM">
           </form>
         </ul>
-        
       </div>`
     },
 }
