@@ -1,6 +1,6 @@
 const menu = {
     render(){
-        return `<div class="bg-orange-500 py-1">
+        return /*html*/ `<div class="bg-orange-500 py-1">
         <ul class="max-w-full">
           <li class="inline-block mx-3 pl-5 text-white pl-6 pr-1 font-serif"><a href="/">Trang chủ</a> </li>
           <li class="inline-block mx-3 pl-2 text-white pr-1 font-serif"><a href="/news">Tuyển sinh</a></li>

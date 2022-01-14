@@ -12,7 +12,6 @@ document.getElementById("header").innerHTML = menu.render();
 document.getElementById("banner").innerHTML = banner.render();
 document.getElementById("content").innerHTML = content.render();
 
-
 const router = new Navigo("/",{ linksSelector: "a"});
 const print = (cone) => {
   document.querySelector("#app").innerHTML = cone;
@@ -22,7 +21,7 @@ const print = (cone) => {
 }
 router.on({
     "/": () => {
-        print("Home Page");
+        print(HomePage.render());
     },
     "/about": () => {
       print("About page");
